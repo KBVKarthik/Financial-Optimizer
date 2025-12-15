@@ -1,0 +1,130 @@
+# 🚀 QUICK START - COPY & PASTE COMMANDS
+
+## ⚡ 60-Second Setup
+
+### Terminal 1 - Backend Server
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+### Terminal 2 - Frontend Server (Open NEW terminal)
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Browser
+```
+Open: http://localhost:3000
+```
+
+✅ **Done! Your app is running!**
+
+---
+
+## 🎯 What You Should See
+
+### Terminal 1 Output (Backend)
+```
+╔════════════════════════════════════════════════════════════════╗
+║        Financial Optimizer API Server                          ║
+╠════════════════════════════════════════════════════════════════╣
+║ ✓ Server running on http://localhost:5000                      ║
+║ ✓ Database initialized (SQLite)                               ║
+║ ✓ Mock data loaded in cache                                   ║
+```
+
+### Terminal 2 Output (Frontend)
+```
+VITE v5.0.8  ready in XXX ms
+
+➜  Local:   http://localhost:3000/
+```
+
+### Browser
+```
+Beautiful Financial Optimizer Dashboard
+- Portfolio Value: $50,000+
+- Asset Allocation Charts
+- Three Tabs: Overview, Optimization, Analysis
+```
+
+---
+
+## 🎨 Try These
+
+1. **View Overview Tab**
+   - See your portfolio breakdown
+   - Check individual assets
+   - Review holdings table
+
+2. **View Optimization Tab**
+   - See efficient frontier chart
+   - Compare current vs. optimized
+   - Check recommended weights
+
+3. **View Analysis Tab**
+   - Get smart recommendations
+   - See detailed metrics
+   - Compare strategies
+
+---
+
+## 🛠️ Troubleshooting
+
+### "npm: command not found"
+→ Install Node.js from nodejs.org
+
+### "Port already in use"
+→ Kill process on port 5000/3000
+```bash
+# Windows PowerShell
+Get-Process -Id (Get-NetTCPConnection -LocalPort 5000).OwningProcess | Stop-Process
+```
+
+### "Cannot find module"
+→ Run `npm install` in that directory
+
+### "Cannot find localhost"
+→ Make sure BOTH servers are running
+
+### "Blank page"
+→ Check browser console for errors (F12)
+
+---
+
+## 📝 Directory Structure
+
+```
+Financial-Optimizer/
+├── backend/          ← Run: npm install && npm run dev
+├── frontend/         ← Run: npm install && npm run dev
+└── Documentation
+```
+
+---
+
+## ✅ Checklist
+
+- [ ] Backend `npm install` complete?
+- [ ] Backend `npm run dev` started?
+- [ ] Frontend `npm install` complete?
+- [ ] Frontend `npm run dev` started?
+- [ ] Browser opened http://localhost:3000?
+- [ ] No errors in console?
+- [ ] Can see portfolio dashboard?
+
+If all checked ✅ - **Congratulations! You're done!**
+
+---
+
+## 📚 Next
+
+Read: **START_HERE.md** for next steps
+
+---
+
+**Happy investing! 📈**
